@@ -227,6 +227,10 @@ jobs:
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
+
+          # Loop: LoopCoreConstants.swift: carb absorption time
+curl https://github.com/rudemoo-org/Loop/commit/384394f.patch | git apply -v --directory=Loop
+
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
